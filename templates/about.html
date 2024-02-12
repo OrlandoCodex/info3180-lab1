@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
     <h1>Orlando Drummonds</h1>
@@ -11,5 +12,6 @@
         Whether I'm coding responsive layouts or mastering the perfect cornering technique, I approach each task with precision, creativity, 
         and a drive to excel in both my professional and personal pursuits.
     </p>
+    <img src="{{ url_for('static', filename='uwi-sign-image.jpg')}}" class="image"/>
 </body>
 </html>
